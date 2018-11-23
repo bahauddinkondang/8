@@ -18,45 +18,45 @@ NOW=`date "+%d.%m.%Y"`
 TIME=`date "+%H:%M"`
 
 echo
-toilet -f standard " InYourDfv47 " -F gay
+toilet -f standard " Bahauddin " -F gay
 echo
 echo ""
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green""
-echo $yellow""
-echo $red""
-echo $white""
-echo $purple" "
-echo $cyan"" 
-echo $green""
-echo $yellow""
-echo $red""
+echo $green"                     Bahauddin - Mr.B4h4'"
+echo $yellow"                    Bendokaton Tayu Pati Jateng"
+echo $red"                       085726833815"
+echo $white"                     SENG PENTING ROKOK KOPI LANCAR"
+echo $purple"                    INDONESIAN CYBER TEAM"
+echo $cyan"                      KNOWLEDGE IS POWER" 
+echo $green"                     NIGHT PEOOPLE"
+echo $yellow"                    TERUS BELAJAR TANPA HENTI"
+echo $red"                       TOOL HACKING"
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
 echo ""
-echo $white".:Ini Adalah Tools Installer Yang Dibuat Oleh InYourDfv47:."
-echo $purple"...........::::::::::Karya Anak Bangsa::::::::::..........."
+echo $white"            .:TOOL HACKING DDOS Bahauddin:."
+echo $purple"...........::::::::::Bahauddin::::::::::..........."
 echo $cyan".::Bermimpi lah Setinggi Langit Karena Mimpi itu Gratis:.."
-echo $green"......::::::Silahkan Pilih Tools Yang Tersedia:::::::......"
+echo $green"......::::::monggo Pilih Tools seng ono:::::::......"
 echo $yellow
 date 
 echo "\033[36;1m"
 echo "[+]===============================================[+]"
-echo $red"|  [1] Materi Hacking Ala InYourDfv47               |"
+echo $red"  [1] LITEDDOS               "
 echo "[+]===============================================[+]"
-echo $white"|  [2] DDOS Website Dengan LITEDDOS                 |"
+echo $white"  [2] Torshammer                 "
 echo "[+]===============================================[+]"
-echo $purple"|  [3] DDOS Website Dengan Torshammer               |"
+echo $purple"  [3] Xerxes              "
 echo "[+]===============================================[+]"
-echo $cyan"|  [4] DDOS Website Dengan Xerxes                   |"
+echo $cyan"  [4] Hammer                   "
 echo "[+]===============================================[+]"
-echo $purple"|  [00] About Me                                    |"
+echo $purple"  [00] About Me                                    "
 echo "[+]===============================================[+]"
-echo $cyan"|  [0] Exit                                         |"
+echo $cyan"  [0] Exit     "
 echo "[+]===============================================[+]"
 echo
 echo "\033[32;1m"
 read -p "╭─[Pilih Nomer]
-╰─root@Dfv47=•>" bro
+╰─root@Bahauddin=•>" bro
 
 
 
@@ -64,19 +64,19 @@ if [ $bro = 1 ] || [ $bro = 1 ]
 then
 clear
 echo
-toilet -f standard " InYourDfv47 " -F gay
+toilet -f standard " Bahauddin " -F gay
 echo
 echo ""
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"|  [Author      ]: InYourDfv47 °      °         °     °  |"
-echo $yellow"|  [Version     ]: Tools Installer  °       °      °   ° |"
-echo $red"|  [Team        ]: Termux Tools-ID  °      °      °    ° |"
-echo $white"|  [Phone       ]: 082223108828     °       °     °   °  |"
-echo $purple"|  °      °	   [Thanks To All Member]     °          |"
-echo $cyan"|  °	     °   °   [Termux Tools-ID] °	  	°|" 
-echo $green"|°	°       °[Elite Muslim Cyber Army]°	   °   ° |"
-echo $yellow"|	     °     [Nertral Cyber Team]   °    °     °   |"
-echo $red"|  °	 °        °   [2Easy 4Hack]°	    °      °    °|"
+echo $green"                     Bahauddin - Mr.B4h4'"
+echo $yellow"                    Bendokaton Tayu Pati Jateng"
+echo $red"                       085726833815"
+echo $white"                     SENG PENTING ROKOK KOPI LANCAR"
+echo $purple"                    INDONESIAN CYBER TEAM"
+echo $cyan"                      KNOWLEDGE IS POWER" 
+echo $green"                     NIGHT PEOOPLE"
+echo $yellow"                    TERUS BELAJAR TANPA HENTI"
+echo $red"                       TOOL HACKING"
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
 sleep 1
 echo $green"Installing LITEDDOS..."
@@ -94,19 +94,19 @@ if [ $bro = 2 ] || [ $bro = 2 ]
 then
 clear
 echo
-toilet -f standard " InYourDfv47 " -F gay
+toilet -f standard " Bahauddin " -F gay
 echo
 echo ""
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"|  [Author      ]: InYourDfv47 °      °         °     °  |"
-echo $yellow"|  [Version     ]: Tools Installer  °       °      °   ° |"
-echo $red"|  [Team        ]: Termux Tools-ID  °      °      °    ° |"
-echo $white"|  [Phone       ]: 082223108828     °       °     °   °  |"
-echo $purple"|  °      °	   [Thanks To All Member]     °          |"
-echo $cyan"|  °	     °   °   [Termux Tools-ID] °	  	°|" 
-echo $green"|°	°       °[Elite Muslim Cyber Army]°	   °   ° |"
-echo $yellow"|	     °     [Nertral Cyber Team]   °    °     °   |"
-echo $red"|  °	 °        °   [2Easy 4Hack]°	    °      °    °|"
+echo $green"                     Bahauddin - Mr.B4h4'"
+echo $yellow"                    Bendokaton Tayu Pati Jateng"
+echo $red"                       085726833815"
+echo $white"                     SENG PENTING ROKOK KOPI LANCAR"
+echo $purple"                    INDONESIAN CYBER TEAM"
+echo $cyan"                      KNOWLEDGE IS POWER" 
+echo $green"                     NIGHT PEOOPLE"
+echo $yellow"                    TERUS BELAJAR TANPA HENTI"
+echo $red"                       TOOL HACKING"
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
 sleep 1
 echo $green"Installing Torshammer DDOS..."
@@ -125,19 +125,19 @@ if [ $bro = 3 ] || [ $bro = 3 ]
 then
 clear
 echo
-toilet -f standard " InYourDfv47 " -F gay
+toilet -f standard " Bahauddin " -F gay
 echo
 echo ""
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"|  [Author      ]: InYourDfv47 °      °         °     °  |"
-echo $yellow"|  [Version     ]: Tools Installer  °       °      °   ° |"
-echo $red"|  [Team        ]: Termux Tools-ID  °      °      °    ° |"
-echo $white"|  [Phone       ]: 082223108828     °       °     °   °  |"
-echo $purple"|  °      °	   [Thanks To All Member]     °          |"
-echo $cyan"|  °	     °   °   [Termux Tools-ID] °	  	°|" 
-echo $green"|°	°       °[Elite Muslim Cyber Army]°	   °   ° |"
-echo $yellow"|	     °     [Nertral Cyber Team]   °    °     °   |"
-echo $red"|  °	 °        °   [2Easy 4Hack]°	    °      °    °|"
+echo $green"                     Bahauddin - Mr.B4h4'"
+echo $yellow"                    Bendokaton Tayu Pati Jateng"
+echo $red"                       085726833815"
+echo $white"                     SENG PENTING ROKOK KOPI LANCAR"
+echo $purple"                    INDONESIAN CYBER TEAM"
+echo $cyan"                      KNOWLEDGE IS POWER" 
+echo $green"                     NIGHT PEOOPLE"
+echo $yellow"                    TERUS BELAJAR TANPA HENTI"
+echo $red"                       TOOL HACKING"
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
 sleep 1
 echo $green"Installing Xerxes DDOS..."
@@ -158,19 +158,19 @@ if [ $bro = 4 ] || [ $bro = 4 ]
 then
 clear
 echo
-toilet -f standard " InYourDfv47 " -F gay
+toilet -f standard " Bahauddin " -F gay
 echo
 echo ""
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"|  [Author      ]: InYourDfv47 °      °         °     °  |"
-echo $yellow"|  [Version     ]: Tools Installer  °       °      °   ° |"
-echo $red"|  [Team        ]: Termux Tools-ID  °      °      °    ° |"
-echo $white"|  [Phone       ]: 082223108828     °       °     °   °  |"
-echo $purple"|  °      °	   [Thanks To All Member]     °          |"
-echo $cyan"|  °	     °   °   [Termux Tools-ID] °	  	°|" 
-echo $green"|°	°       °[Elite Muslim Cyber Army]°	   °   ° |"
-echo $yellow"|	     °     [Nertral Cyber Team]   °    °     °   |"
-echo $red"|  °	 °        °   [2Easy 4Hack]°	    °      °    °|"
+echo $green"                     Bahauddin - Mr.B4h4'"
+echo $yellow"                    Bendokaton Tayu Pati Jateng"
+echo $red"                       085726833815"
+echo $white"                     SENG PENTING ROKOK KOPI LANCAR"
+echo $purple"                    INDONESIAN CYBER TEAM"
+echo $cyan"                      KNOWLEDGE IS POWER" 
+echo $green"                     NIGHT PEOOPLE"
+echo $yellow"                    TERUS BELAJAR TANPA HENTI"
+echo $red"                       TOOL HACKING"
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
 sleep 1
 echo $green" Installing Hammer DDOS.."
