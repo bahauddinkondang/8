@@ -17,7 +17,7 @@ echo $yellow"Whatsapp : 085695570951"
 echo ""
 echo $cyan"======================<USERNAME>======================"
 read -p"Masukan Username: " us
-if [ $us = "bimab-jabang" ];then
+if [ $us = "bahauddin" ];then
 sleep 1
 clear
 else
@@ -33,31 +33,31 @@ toilet -f big -F gay "PASWRD"
 echo ""
 echo $cyan"MASUKAN PASSWRD DGN BENAR"
 echo $purple"KALAU GK TAHU PASSWORDNYA HUB GW"
-echo $yellow"Whastapp : 085695570951"
+echo $yellow"Whastapp : 085726833815"
 echo ""
 echo $green"======================PASSWORDNYA======================"
 read -p"Masukan Password: " pw
-if [ $pw = "jabang" ];then
+if [ $pw = "ganteng" ];then
 sleep 1
 clear
 else
 clear
 toilet -f big -F gay "Salah"
-toilet -f big -F gay "Goblok"
+toilet -f big -F gay "pekok"
 sleep 1
 clear
 sh pw+us.sh
 fi
 
-toilet -f big -F gay "T00LS"
-toilet -f big -F gay "Bima Bagus"
-toilet -f big -F gay "V : 3"
+toilet -f big -F gay "INDONESIAN CYBER"
+toilet -f big -F gay "Bahauddin Mr.B4h4'"
+toilet -f big -F gay "bendokaton tayu pati"
 echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"<[+]>Pembuat : cyb3r_gh0st" /$yellow"Bima Bagus T"
+echo $cyan"<[+]>Pembuat : Bahauddin" /$yellow"Bahauddin"
 echo $purple"<[+]>Team : D35TR0Y" $red"SQUAD"
-echo $green"<[+]>Alamat : INDONESIA "$blue"JAWA TIMUR"
-echo $red"<[+]>Whast'app : "$yellow"085695570951"
-echo $white"<[+]>Status : Smp-9"$purple "14Thn"$green "Jomblo Pacarin Aja"
+echo $green"<[+]>Alamat : INDONESIA "$blue"CYBER"
+echo $red"<[+]>Whast'app : "$yellow"085726833815"
+echo $white"<[+]>Status : SANTAI"$purple "GANTENG"$green "TERUS BELAJAR"
 echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
 echo ""
 echo ""
@@ -65,15 +65,15 @@ echo ""
 echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
 echo $cyan"(1)SPECIAL THANKS FOR:"
 echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(2)INSTALL TOOLS Cyb3r_Gh0st Versi:1"
+echo $cyan"(2)INSTALL TOOLS Bahauddin Versi:1"
 echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(3)INSTALL TOOLS Cyb3r_Gh0st Versi:2"
+echo $cyan"(3)INSTALL TOOLS Bahauddin Versi:2"
 echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(4)INSTALL TOOLS Cyb3r_Gh0st Versi:3"
+echo $cyan"(4)INSTALL TOOLS Bahauddin Versi:3"
 echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(5)INSTALL TOOLS TYREXUS Versi:1"
+echo $cyan"(5)INSTALL TOOLS Bahauddin Versi:1"
 echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(6)INSTALL TOOLS KUBURAN MANTAN cyb3r_gh0st"
+echo $cyan"(6)INSTALL TOOLS Bahauddin"
 echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
 echo $cyan"(88)KELUAR"
 echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
