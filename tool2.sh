@@ -1,27 +1,36 @@
+
 #!/bin/bash
-#version 1.0
+#bash
+ec="echo -e"
+g="\033[32;1m"
+y="\033[33;1m"
+i="\033[34;1m"
+r="\033[35;1m"
+p="\033[37;1m"
+c="\033[36;1m"
+w="\033[39;1m"
+r2='\033[31m'
 
-# Variables
-b='\033[1m'
-u='\033[4m'
-bl='\E[30m'
-r='\E[31m'
-g='\E[32m'
-bu='\E[34m'
-m='\E[35m'
-c='\E[36m'
-w='\E[37m'
-endc='\E[0m'
-enda='\033[0m'
-blue='\e[1;34m'
-cyan='\e[1;36m'
-red='\e[1;31m'
-
-echo -e  "_____________________________________________________________"
-echo -e  "Tools    : 0daysecurity98 $white         " |lolcat
-echo -e  "Creadby  : 0day $white   " |lolcat
-echo -e  "Contact  : attackofcyber969@gmail.com $white " |lolcat
-echo -e  "_____________________________________________________________"
+$ec $c"           "
+$ec "          "
+$ec "         "
+$ec "        "
+$ec "       "
+$ec "      "
+$ec "       "
+$ec "               "$w"Facebook bruteforce v.1.0"
+$ec $c"       "
+$ec "            "$r2"["$y"+"$r2"]"$y"==========================="$r2"["$y"+"$r2"]"
+$ec $c"        "$r2"[ ]                           [ ]"
+$ec $c" "$i""$c"     "$r2"[ ]   "$w"Author by "$r2": "$w"Mr.B3LUX"$r2"    [ ]"
+$ec $c" "$i""$c"    "$r2"[ ]   "$w"FB        "$r2": "$w"Kevin AR    "$r2"[ ]"
+$ec $c""$i""$c"    "$r2"[ ]                           [ ]"
+$ec $c"    "$r2"[ ]      "$i"Copyright ©2018      "$r2"[ ]"
+$ec $c"     "$r2"[ ]                           [ ]"
+$ec $c"       "$r2"["$y"+"$r2"]"$y"==========================="$r2"["$y"+"$r2"]"
+$ec $c"  "
+$ec $i" "
+$ec $i""
 
 
 echo ""
