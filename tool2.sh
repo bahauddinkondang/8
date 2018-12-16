@@ -11,26 +11,13 @@ c="\033[36;1m"
 w="\033[39;1m"
 r2='\033[31m'
 
-$ec $c"           "
-$ec "          "
-$ec "         "
-$ec "        "
-$ec "       "
-$ec "      "
-$ec "       "
-$ec "               "$w"Facebook bruteforce v.1.0"
-$ec $c"       "
-$ec "            "$r2"["$y"+"$r2"]"$y"==========================="$r2"["$y"+"$r2"]"
-$ec $c"        "$r2"[ ]                           [ ]"
-$ec $c" "$i""$c"     "$r2"[ ]   "$w"Author by "$r2": "$w"Mr.B3LUX"$r2"    [ ]"
-$ec $c" "$i""$c"    "$r2"[ ]   "$w"FB        "$r2": "$w"Kevin AR    "$r2"[ ]"
-$ec $c""$i""$c"    "$r2"[ ]                           [ ]"
-$ec $c"    "$r2"[ ]      "$i"Copyright ©2018      "$r2"[ ]"
-$ec $c"     "$r2"[ ]                           [ ]"
-$ec $c"       "$r2"["$y"+"$r2"]"$y"==========================="$r2"["$y"+"$r2"]"
-$ec $c"  "
-$ec $i" "
-$ec $i""
+figlet Tools | lolcat
+
+echo -e  "_____________________________________________________________"
+echo -e  "Tools    : 0daysecurity98 $white         " |lolcat
+echo -e  "Creadby  : 0day $white   " |lolcat
+echo -e  "Contact  : attackofcyber969@gmail.com $white " |lolcat
+echo -e  "_____________________________________________________________"
 
 
 echo ""
