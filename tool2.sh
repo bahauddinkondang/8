@@ -10,13 +10,12 @@ c="\033[36;1m"
 w="\033[39;1m"
 r2='\033[31m'
 
-$ec "       "
-$ec $c"      "
-$ec "$r"TOOL HACK FACEBOOK ANDROID 2018"
-$ec "$w"by:NICKNAME: Bahauddin Mr.B4h4'"
-$ec "$r"bendokaton tayu pati jateng"
-$ec "$w"CYBER NOOBS TAYU PATI"
-$ec "       "
+echo -e  "_____________________________________________________________"
+echo -e  "Tools    : 0daysecurity98 $white         " |lolcat
+echo -e  "Creadby  : 0day $white   " |lolcat
+echo -e  "Contact  : attackofcyber969@gmail.com $white " |lolcat
+echo -e  "_____________________________________________________________"
+
 
 echo ""
 echo -e -n $i"["$w"?"$i"]"$w" Masukan id target"$r2" > "$w
