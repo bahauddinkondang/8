@@ -9,28 +9,27 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 reset='\033[0m'
 
-echo "$white
-                  ~~~~~DARK FORCE ARMY~~~~~"
-figlet Tools | lolcat
+
+figlet Tools Hacking Bahauddin| lolcat
 
 echo -e  "_____________________________________________________________"
-echo -e  "Tools    : 0daysecurity98 $white         " |lolcat
-echo -e  "Creadby  : 0day $white   " |lolcat
-echo -e  "Contact  : attackofcyber969@gmail.com $white " |lolcat
+echo -e  "Tools    : TOOLs HACKING ANDROID 2018 $white         " |lolcat
+echo -e  "CreatedBy: Bahauddin Mr.B4h4'  " |lolcat
+echo -e  "from     : bendokaton tayu pati jateng $white " |lolcat
 echo -e  "_____________________________________________________________"
-echo "$white=======Silahkan Pilih=======
-#####MetasploitUser#####
+echo "$yellow=======Silahkan Pilih=======
+*****MetasploitUser*****
 1.  Install Metasploit
 2.  Install Tmux-Bunch
 3.  Install Ngrok
 4.  Install Shodan
 ==============================
-#####PhishingTools#####
+*****PhishingTools*****
 5.  Install Weeman
 6.  Install Blackeye
 7.  Install SocialFish (Root)
 ==============================
-#####SosmedTools#####
+*****SosmedTools*****
 8.  Install BlackHydra
 9.  Install Cupp
 10. Install MBF
@@ -38,13 +37,13 @@ echo "$white=======Silahkan Pilih=======
 12. Install Twiter Sniper
 13. Install Hacktronian
 ==============================
-#####UsersBOT#####
+*****UsersBOT*****
 14. Install Instabot
 15. Install Bot Komen Fb
 16. Install Bot Like Fb
 17. Install Chuckyfix
 ==============================
-#####Defacer#####
+*****Defacer*****
 18. Install Sqlmap
 19. Install LFISuite
 20. Install Bingoo
@@ -52,20 +51,20 @@ echo "$white=======Silahkan Pilih=======
 22. Install XAttacker
 23. Install Diejoubu
 ==============================
-########OTHERS########
+********OTHERS*****
 24. Install Java
 25. Install Fedora
 26. Install Nethunter
 27. Install Debian
 28. Install Ubuntu
 29. Install Kali Linux
-########################
+************************
 ======Special Tools======
 30. Install Blackarch
 
-----------######----------
+----------******----------
 00. Exit
-----------######----------"
+----------******----------"
 trap ctrl_c INT
 ctrl_c() {
 echo -e "$red(Ctrl + C ) Has Been Detect!! "
