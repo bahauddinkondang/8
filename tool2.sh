@@ -586,4 +586,4 @@ echo " OKE BYE :* "
 exit
 fi
 
-echo -e $i"["$w"√"$i"]"$w" MONGGO DI check file txt"
+
